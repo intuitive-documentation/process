@@ -12,4 +12,4 @@ In order to add content, first set up a github account and download the [GitHubD
 Clone the exisiting repository for the website you wish to add content too and it will appear on the left hand side. All website content exists within the "gh-pages" branch of the repository, so content can be added through either of the following processes:
 
 - the normal git process of committing directly into the branch
-- branching off and then making a pull request
+- branching off and then making a pull request.
