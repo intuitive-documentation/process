@@ -3,13 +3,6 @@ layout: post
 title:  "TestingWords"
 date:   2016-05-12 13:52:21 -0500
 ---
-Jekyll is the software we use to convert markdown files into our documentation websites.
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Each documentation website has its own github repository. The github username of the repository owner forms the first part of the url - “intuitivedocs”, and the repository name forms the third part of the url - “DevelopmentTeamDocumentation”.
-
-In order to add content, first set up a github account and download the [GitHubDesktop]: https://desktop.github.com/
-
-Clone the exisiting repository for the website you wish to add content too and it will appear on the left hand side. All website content exists within the "gh-pages" branch of the repository, so content can be added through either of the following processes:
-
-- the normal git process of committing directly into the branch
-- branching off and then making a pull request.
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
