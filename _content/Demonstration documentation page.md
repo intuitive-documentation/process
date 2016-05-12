@@ -30,13 +30,13 @@ This time we’ll have some *emphasis*, and a numbered list
 ### Here’s a header three and some code
 The best program ever
 `10.  Print "Reuben is great"
-``20. Goto 10’`
+``20. Goto 10``
 
 Cheeky little divider
 ---- 
 
 `10.  Print "Sexy is never wrong"
-``20. Goto 10’`
+``20. Goto 10``
 
 #### Unlikely outcome - level 4 header
 This is not really likely but hey ho.  Worth 2 minutes of our time styling.
