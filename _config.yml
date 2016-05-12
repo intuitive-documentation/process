@@ -1,8 +1,8 @@
-title: Test Documentation
+title: Intuitive Process Documentation
 email: support@intuitivesystems.co.uk
 description: 
-baseurl: "/NewTest"
-url: "http://intuitive-james.github.io/NewTest/"
+baseurl: "/documentation"
+url: "http://intuitive-james.github.io/documentation/"
 fixedNav: 'false'
 theme: grey
 twitterUsername: intuitivesystem
