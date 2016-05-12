@@ -29,12 +29,19 @@ font-size:125%;
 
 		&.post{
 
-		margin-left:1.25rem;
+		margin-left:0;
 		list-style:none;
 
 		}
 
 		&.subpost{
+
+		margin-left:1.25rem;
+		list-style:none;
+
+		}
+
+		&.subsubpost {
 
 		margin-left:2.5rem;
 		list-style:none;
