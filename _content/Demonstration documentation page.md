@@ -8,6 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu rhoncus velit. Q
 In sagittis, neque quis lobortis ultricies, diam diam molestie dolor, eget convallis turpis turpis vitae erat. Pellentesque ac facilisis sem. Integer non risus finibus, ornare nisl et, porta ipsum. Sed vestibulum vehicula mi, vitae congue urna ultrices ac.
 
 Here is the **first emboldenment** and bullet list
+
 - Item number 1
 - Here is another item in the list
 	- And here’s an indent
