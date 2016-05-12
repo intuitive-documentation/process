@@ -5,8 +5,6 @@ baseurl: "/process"
 url: "http://intuitive-documentation.github.io/process/"
 fixedNav: 'false'
 theme: grey
-twitterUsername: intuitivesystem
-githubUsername: intuitive-documentation
 
 # collections
 collections:
