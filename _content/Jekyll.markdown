@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Jekyll"
-date:   2015-01-03 18:52:21 -0500
 ---
 Jekyll is the software we use to convert markdown files into our documentation websites.
 
@@ -13,3 +11,4 @@ Clone the exisiting repository for the website you wish to add content too and i
 
 - the normal git process of committing directly into the branch
 - branching off and then making a pull request.
+- This is workign
