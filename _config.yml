@@ -11,13 +11,13 @@ collections:
      content:
         output: true
 
-  defaults:
-  -
-    scope:
-      path: ""
-      type: ""
-    values:
-      layout: "post"
+defaults:
+-
+  scope:
+    path: ""
+    type: "content"
+  values:
+    layout: "post"
 
 
 # Build settings
