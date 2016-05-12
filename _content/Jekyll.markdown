@@ -5,13 +5,12 @@ Jekyll is the software we use to convert markdown files into our documentation w
 
 Each documentation website has its own github repository. The github username of the repository owner forms the first part of the url - “intuitivedocs”, and the repository name forms the third part of the url - “DevelopmentTeamDocumentation”.
 
-In order to add content, first set up a github account and download the [GitHubDesktop]
+In order to add content, first set up a github account and download [GitHubDesktop]
 
-Clone the exisiting repository for the website you wish to add content too and it will appear on the left hand side. All website content exists within the "gh-pages" branch of the repository, so content can be added through either of the following processes:
+Clone the exisiting repository for the website you wish to add content to and it will appear on the left hand side of the GUI. All website content exists within the "gh-pages" branch of the repository, so content can be added through either of the following processes:
 
-- the normal git process of committing directly into the branch
-- branching off and then making a pull request.
-
+- the normal git process of committing directly into the gh-pages branch
+- branching off gh-pages and then making a pull request
 
 Every markdown file added requires a title which is added at the very top of every file as follows:
 
