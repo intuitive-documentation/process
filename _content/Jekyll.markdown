@@ -11,4 +11,14 @@ Clone the exisiting repository for the website you wish to add content too and i
 
 - the normal git process of committing directly into the branch
 - branching off and then making a pull request.
-- This is workign
+
+
+Every markdown file added requires a title which is added as follows:
+
+{% highlight ruby }
+---
+title:  "The Post Title"
+---
+{% end highlight}
+
+Jekyll does not require the title and filenames to match but for the sake of site maintenance they should.
