@@ -5,7 +5,6 @@
   {% if collection.label != 'posts' %}
      <div class="catbloc" id="{{ category | remove:' ' }}">
           
-          <h3 class="test">{{collection.label}}</h3>
             <ul class="sidebar-post">
 
             {% assign sortedPosts = collection.docs| sort: 'url' %}

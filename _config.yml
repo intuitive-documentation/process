@@ -10,13 +10,8 @@ githubUsername: intuitive-documentation
 
 # collections
 collections:
-     transfers:
+     content:
         output: true
-     flights:
-        output: true
-     contracting:
-        output: true
-
 
 # Build settings
 permalink: :categories/:title.html
