@@ -11,6 +11,15 @@ collections:
      content:
         output: true
 
+  defaults:
+  -
+    scope:
+      path: ""
+      type: ""
+    values:
+      layout: "post"
+
+
 # Build settings
 permalink: :categories/:title.html
 markdown: kramdown
@@ -18,11 +27,4 @@ include: [_pages,categories]
 exclude: [_site, CHANGELOG.md, LICENSE, README.md]
 sass:
   style: compressed
-
-  defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "post"
 
