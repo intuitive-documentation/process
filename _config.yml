@@ -21,7 +21,7 @@ defaults:
 
 
 # Build settings
-permalink: :categories/:title.html
+permalink: :title.html
 markdown: kramdown
 include: [_pages,categories]
 exclude: [_site, CHANGELOG.md, LICENSE, README.md]
