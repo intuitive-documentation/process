@@ -28,8 +28,11 @@ This time we’ll have some *emphasis*, and a numbered list
 > Here is a block quote - not really sure what these are for.
 
 ### Here’s a header three and some code
+
 The best program ever
+
 `10.  Print "Reuben is great"
+
 ``20. Goto 10’`
 
 Cheeky little divider
