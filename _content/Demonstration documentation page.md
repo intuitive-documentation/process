@@ -29,7 +29,7 @@ This time we’ll have some *emphasis*, and a numbered list
 
 ### Here’s a header three and some code
 The best program ever
-`10.  Print "Reuben is great"``
+``10.  Print "Reuben is great"``
 ``20. Goto 10``
 
 Cheeky little divider
