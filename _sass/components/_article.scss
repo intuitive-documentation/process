@@ -9,7 +9,7 @@
   @include fs--body;
   background:$c__white; 
   margin: 1rem auto 2rem auto;
-  padding:1rem 1rem 1rem 1rem;
+  padding:3rem;
   float:right;
 
   .highlighter-rouge {
@@ -17,27 +17,27 @@
   }
 
   ul {
-  margin-left:1.5rem;
+  margin-left:$s__articleListIndenting;
 
     ul {
-      margin-left:1.5rem;
+      margin-left:$s__articleListIndenting;
     }
 
     ol {
-      margin-left:1.5rem;
+      margin-left:$s__articleListIndenting;
     }
 
   }
 
   ol {
-  margin-left:1.5rem;
+  margin-left:$s__articleListIndenting;
 
     ul {
-      margin-left:1.5rem;
+      margin-left:$s__articleListIndenting;
     }
 
     ol {
-      margin-left:1.5rem;
+      margin-left:$s__articleListIndenting;
     }
 
   }
