@@ -15,8 +15,10 @@ Clone the exisiting repository for the website you wish to add content too and i
 
 Every markdown file added requires a title which is added as follows:
 
->\-\-\- \n
-> title: "Jekyll" \n
-> \-\-\-
+{% highlight ruby %}
+---
+title:  "Jekyll"
+---
+{% endhighlight %}
 
 Jekyll does not require the title and filenames to match but for the sake of site maintenance they should.
