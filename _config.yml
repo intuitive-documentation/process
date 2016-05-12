@@ -1,12 +1,12 @@
 title: Intuitive Process Documentation
 email: support@intuitivesystems.co.uk
 description: 
-baseurl: "/documentation"
-url: "http://intuitive-james.github.io/documentation/"
+baseurl: "/process"
+url: "http://intuitive-documentation.github.io/process/"
 fixedNav: 'false'
 theme: grey
 twitterUsername: intuitivesystem
-githubUsername: intuitive-james
+githubUsername: intuitive-documentation
 
 # collections
 collections:
