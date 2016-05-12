@@ -13,6 +13,7 @@
 
   p {
     @include fs--meta;
+    margin-left:5rem;
   }
 
   a:not(:first-of-type) {
