@@ -97,7 +97,7 @@ The code block below shows the raw markdown that generated the above post.
 ``The code block below shows the raw markdown that generated the above post.``
 
 
-{% highlight C %}
+{% highlight bash %}
 
 ---
 title:  "Examplar markdown"
