@@ -86,7 +86,7 @@ The code block below shows the raw markdown that generated the above post.
 
 ``---- ``
 
-`` \`\`10.  Print "Sexy is never wrong"\`\` ``
+`` 10.  Print "Sexy is never wrong" ``
 `` ``20. Goto 10`` ``
 
 ``#### Unlikely outcome - level 4 header``
