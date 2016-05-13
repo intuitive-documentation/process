@@ -2,14 +2,16 @@
 .c-main{
 width:100rem;
 margin:0 auto;
+
 .catbloc-collection {
 
 float:left;
 background:$c__light-grey;
 padding:0rem 1rem 1rem 0;
-margin:1rem 0rem 1rem 3rem;
+margin:2rem 0rem 1rem 3rem;
 width:17rem;
-border-radius:1rem;
+border-top-left-radius:1rem;
+border-bottom-left-radius:1rem;
 
 .catbloc{
 
