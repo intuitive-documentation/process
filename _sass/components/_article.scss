@@ -4,6 +4,10 @@
 
 .c-article {
 
+&.c-main {
+  padding-top:2rem;
+}
+
 .c-article__main {
   max-width: 80rem; // 760px;
   @include fs--body;
