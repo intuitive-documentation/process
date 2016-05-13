@@ -5,12 +5,7 @@
 .c-footer {
   padding-top: 3rem;
   padding-bottom:3rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  width: 100%;
-  height: auto;
-  background: $c__background;
-  clear:both;
+  color:#333;
 
   p {
     @include fs--meta;
