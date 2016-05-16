@@ -1,5 +1,5 @@
 ---
-title:  "Examplar markdown"
+title:  "Exemplar markdown"
 ---
 # Demonstration documentation page
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu rhoncus velit. Quisque ut neque magna. Maecenas luctus varius ligula eu gravida. Vestibulum id purus a sem porta pharetra id nec risus. In sagittis, neque quis lobortis ultricies, diam diam molestie dolor, eget convallis turpis turpis vitae erat. Pellentesque ac facilisis sem. Integer non risus finibus, ornare nisl et, porta ipsum. Sed vestibulum vehicula mi, vitae congue urna ultrices ac.
