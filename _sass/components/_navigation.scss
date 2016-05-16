@@ -28,4 +28,16 @@
   color:$c__background;
 
   }
+
+  @media (max-width: 600px) {
+  
+  .c-navigation__title{
+  font-size:1rem;
+  margin-top:0.4rem;
+  font-weight: bold;
+  color:$c__background;
+  }
+
+}
+
 }
