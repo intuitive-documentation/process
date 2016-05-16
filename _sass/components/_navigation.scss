@@ -6,6 +6,7 @@
   
   .c-navigation__container {
     height:auto;
+    padding:0.5rem;
 
   }
 
@@ -29,25 +30,16 @@
 
   @media (max-width: 70rem) {
 
+.c-navigation__container {
+  }
+
+.navigation-header {
+}
+
   .c-navigation__image {
-  height:3rem;
-  margin-left:1rem;
-  }
-  
-  .c-navigation__title{
-  font-size:2rem;
-  margin-left:1rem;
-  margin-top:0.4rem;
-  font-weight: bold;
-  /* color:$c__background; */
-  color:green;
-  clear:left;
   }
 
-  .c-navigation__container {
-    padding:1rem 0;
-    height:8rem;
-
+  .c-navigation__title {
   }
 
   }
