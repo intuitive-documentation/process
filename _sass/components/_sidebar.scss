@@ -74,10 +74,33 @@ margin:0 auto;
 @media (max-width: 50rem) {
 
 .catbloc-collection {
+	.catbloc-collection {
 
+	position: relative;
+	width: 50rem;
+
+	.catbloc{
+
+		max-width:50rem;
+		width:50rem
+		list-style:none;
+		font-size:125%;
+		background:$c__sidebar-background;
+		border:#E4E0E0 1px solid;
+		border-top-left-radius:1rem;
+		border-bottom-left-radius:1rem;
+		padding:1rem 0;
+
+		position: absolute;
+		top: 1rem;
+		right: 0;
+		bottom: 1rem;
+		left: 0;
 
 	}
 }
 
+}
+}
 }
 }
