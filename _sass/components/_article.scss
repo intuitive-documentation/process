@@ -9,7 +9,7 @@
 }
 
 .c-article__main {
-  max-width: 80rem; // 760px;
+  width: 80rem; // 760px;
   @include fs--body;
   background:$c__article-main-background; 
   margin: 1rem auto 2rem auto;
