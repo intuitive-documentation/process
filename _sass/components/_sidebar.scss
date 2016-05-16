@@ -75,22 +75,23 @@
 
 	.catbloc-collection {
 
-		position: relative;
-		width: 50rem;
+		display:block;
+		position:relative;
+		height:auto;
+		width:auto;
 
 		.catbloc{
 
-			max-width:50rem;
-			width:50rem;
+			max-width:80rem;
+			width:auto;
 			list-style:none;
 			font-size:125%;
 			background:$c__sidebar-background;
 			border:#E4E0E0 1px solid;
-			border-top-left-radius:1rem;
-			border-bottom-left-radius:1rem;
+			border-radius:1rem;
 			padding:1rem 0;
 
-			position: absolute;
+			position: inherit;
 			top: 0;
 			right: 0;
 			bottom: 0;
