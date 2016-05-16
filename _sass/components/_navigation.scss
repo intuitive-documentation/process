@@ -30,6 +30,11 @@
   }
 
   @media (max-width: 600px) {
+
+  .c-navigation__image {
+  height:3rem;
+  padding-left:2rem;
+  }
   
   .c-navigation__title{
   font-size:1rem;
@@ -37,6 +42,10 @@
   font-weight: bold;
   color:$c__background;
   }
+
+  .c-navigation__container {
+    padding:1rem 0;
+    height:8rem;
 
 }
 
