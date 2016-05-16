@@ -70,5 +70,16 @@ margin:0 auto;
 
 }
 }
+
+@media (max-width: 50rem) {
+
+.catbloc-collection {
+
+	display: table-row;
+	position: absolute;
+	width: auto;
+	
+}
+
 }
 }
