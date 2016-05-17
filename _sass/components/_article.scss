@@ -16,7 +16,7 @@
   margin: 1rem auto 2rem auto;
   padding:3rem;
   padding-top:1.5rem;
-  border-radius:1rem;
+  border-radius:0.5rem;
   display:table-cell;
 
   .highlighter-rouge {
@@ -79,14 +79,14 @@
 @media (max-width: 50rem) {
 
 .c-article__main {
-  max-width: none;
-  width:none;
+  max-width: 50rem;
+  width:auto;
   @include fs--body;
   background:$c__article-main-background; 
   margin: 1rem auto 2rem auto;
   padding:3rem;
   padding-top:1.5rem;
-  border-radius:1rem;
+  border-radius:0.5rem;
   }
 }
 
