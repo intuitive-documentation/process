@@ -1,3 +1,6 @@
 _site
 .sass-cache
 .plist
+_content/.Ulysses-favorites.plist
+
+*.plist
