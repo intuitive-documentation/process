@@ -25,7 +25,8 @@ title:  "Code Review"
 - **Developer** has created the pull request to the correct destination branch in all modified repositories.
 
 
-# IMAGE
+![My helpful screenshot](/DevelopmentTeamProcess/images/ProcessDocumentation/CodeReview/CodeReviewFlow.png)
+
 
 ## Tasks
 T1. 	BBD Analysis: **Code Reviewer** goes through the BDD and the **Developer** demonstrates that each BDD scenario has passed.  Any issues are noted down.
