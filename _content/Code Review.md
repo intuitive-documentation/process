@@ -7,6 +7,6 @@ title:  “Code Review”
 - To ensure that the development meets the agreed upon specification
 - To ensure that intuitive coding practices are followed.
 - To identify any pre-requisites that need to be created.
- - Resolution of any merge conflicts to the destination branch.
+- Resolution of any merge conflicts to the destination branch.
 
 
