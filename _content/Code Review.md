@@ -25,7 +25,7 @@ title:  "Code Review"
 - **Developer** has created the pull request to the correct destination branch in all modified repositories.
 
 
-![My helpful screenshot](/DevelopmentTeamProcess/images/ProcessDocumentation/CodeReview/CodeReviewFlow.png)
+![Code Review Process](/DevelopmentTeamProcess/images/ProcessDocumentation/CodeReview/CodeReviewFlow.png)
 
 
 ## Tasks
