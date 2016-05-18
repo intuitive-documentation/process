@@ -20,8 +20,7 @@ title: "Test Deployments"
 	- The customer as requested an ad-hoc test update
 	- The overnight deployment deployment has been triggered
 
-## Images
-### TODO
+![Test Deployment Process](/DevelopmentTeamProcess/images/TestDeployment/TestDeploymentFlow.png)
 
 ## Tasks
 T1. 	Run Artefact Builds: **Bamboo** To run the artefact builds
