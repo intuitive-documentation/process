@@ -24,21 +24,21 @@ title: "Test Deployments"
 ### TODO
 
 ## Tasks
-T1. 	Run Artefact Builds
-- Description here
+T1. 	Run Artefact Builds: **Bamboo** To run the artefact builds
 
-T2.		Notifications send to **Dev Resource** and **Project Manager**
-- Description here
+T2.		 Atefact Deployments: **Bamboo** To run the artefact deployments
 
-T3.		Automated JIRA changes
-- Description here
+T3.		Notifications sent: **Bamboo** to send emails to **Dev Resource** and **Project Manager** regarding the success of the builds
 
-T4.		Enact Pre-Requisites
-- Description here
+T4.		Automated JIRA changes:  **Bamboo** moves the tickets that have been updated out of *Pending*
+
+T5.		Enact Pre-Requisites:  **Dev Resource** to ensure all Pre-Requisites tied to items now in the test system have been actioned
+
+T6.		Correct Bamboo Failures:  Any failures from **Bamboo** need to be resolved by the **Dev Resource**
 		
 
 ## Verification
-V1.		Verify JIRA Statuses
+V1.		Verify JIRA Statuses:  **Project Manager** to ensure that all tickets and pre-requisites have been completed and are in the correct status
 
 ## Exit Criteria
 - Test environment has been updated
