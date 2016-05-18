@@ -25,16 +25,15 @@ title: "Test Deployments"
 
 ## Tasks
 T1. 	Run Artefact Builds
-			- Description here
-
+- Description here
 T2.		Notifications send to **Dev Resource** and **Project Manager**
-			- Description here
+- Description here
 
 T3.		Automated JIRA changes
-			- Description here
+- Description here
 
 T4.		Enact Pre-Requisites
-			- Description here
+- Description here
 		
 
 ## Verification
