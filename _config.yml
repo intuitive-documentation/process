@@ -6,7 +6,7 @@ baseurl: "/DevelopmentTeamProcess"
 url: "http://intuitivedocs.github.io/DevelopmentTeamProcess/"
 fixedNav: 'false'
 theme: grey
-cssurl: "/DocumentationSiteThemes"
+styleurl: "/DocumentationSiteThemes"
 
 # collections
 collections:
