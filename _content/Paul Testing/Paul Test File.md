@@ -9,3 +9,5 @@ Here is my first image.
 ![Here is a beautiful search tool][image-1]
 
 [image-1]:	SearchTool.png "Here is my search tool"
+
+I'm going to add more stuff to this file.
