@@ -37,5 +37,5 @@ V1.		Name of Verification Step:  **Role** and what happens for the verification
 ## Quality Records 
 - Any output from the process that provides the evidence that the appropriate activites took place.
 
-|Required Record|Custodian|Retention Period|
+|**Required Record**|**Custodian**|**Retention Period**|
 |Quality record name|Role responsible for collecting/maintaing the quality record|Rentention period for the quality record|
