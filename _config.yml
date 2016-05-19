@@ -17,7 +17,7 @@ collections:
 defaults:
 -
   scope:
-    path: ""
+    path: "Jekyll/"
     type: "content"
   values:
     layout: "post"
