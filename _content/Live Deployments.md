@@ -14,3 +14,7 @@ title: "Live Deployments"
 	- A nominated point of contact for the customer.
 
 ## Entry Criteria
+- All Developments in Jira are marked as *Passed Test*
+- All Pre-Release issues in Jira are marked as *Resolved*
+- All Zendesk tickets in Jira as marked as *Passed Test*
+- **Customer Contact** has returned a signed release form to the **Project Manager**
