@@ -10,4 +10,6 @@ But the contents did not refresh...
 
 ![Here is a beautiful search tool][image-1]
 
+I'm going to add more stuff to this file.
+
 [image-1]:	SearchTool.png "Here is my search tool"
