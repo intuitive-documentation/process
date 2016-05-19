@@ -17,10 +17,15 @@ collections:
 defaults:
 -
   scope:
-    path: "Jekyll/"
+    path: ""
     type: "content"
   values:
     layout: "post"
+
+
+layouts_dir: ./Jekyll/_layouts
+includes_dir: ./Jekyll/_includes
+pages_dir: .Jekyll/_pages
 
 
 # Build settings
