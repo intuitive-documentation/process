@@ -1,5 +1,5 @@
 ---
-title: "9. Test Deploy"
+title: "Test Deploy"
 status: "Done"
 ---
 

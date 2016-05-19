@@ -1,5 +1,5 @@
 ---
-title: "7. Awaiting Response"
+title: "Approval and Schedule"
 status: TODO
 ---
 

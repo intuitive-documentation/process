@@ -1,5 +1,5 @@
 ---
-title: "3. Specification Writing"
+title: "Specification Writing"
 status: TODO
 ---
 

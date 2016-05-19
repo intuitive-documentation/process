@@ -1,5 +1,5 @@
 ---
-title: "14. Live Deploy"
+title: "Live Deploy"
 status: InProgress
 ---
 

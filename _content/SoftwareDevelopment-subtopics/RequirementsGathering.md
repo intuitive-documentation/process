@@ -1,5 +1,5 @@
 ---
-title: "1. Requirements Gathering"
+title: "Requirements Gathering"
 status: TODO
 ---
 
