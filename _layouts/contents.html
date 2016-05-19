@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="t-{{ site.theme }}">
+  {% include head.html %}
+  <body>
+
+  {% include navigation.html %}	
+  
+<article class="c-article">
+	  
+<div class="c-main">
+  {% include sidebar.html %}
+  <div class="c-article__main">
+  <h1 class="c-header__title">{{ page.title }}</h1>
+    
+  <div class="contents-collection">
+
+	{% for collection in site.collections %}
+
+	  {% if collection.label != 'posts' %}
+	     <div class="contents-block" id="{{ category | remove:' ' }}">
+	          
+	            <ul class="contents-post">
+
+	            {% assign sortedPosts = collection.docs| sort: 'url' %}
+	            {% for post in sortedPosts %}    
+
+	            {% assign listclass = 'post' %}
+	            {% assign spliturl = post.url | split: '/' %}
+	            {% if spliturl.size == 4 %}
+	                {% assign listclass = 'subpost' %}
+	            {% elsif  spliturl.size == 5 %}
+	                {% assign listclass = 'subsubpost' %}
+	            {% elsif  spliturl.size == 6 %}
+	                {% assign listclass = 'subsubsubpost' %}    
+	            {% endif %}   
+	                   <li class="{{listclass}} contents-subpost">
+	                        <a href="{{ post.url | prepend: site.baseurl  }}">
+	                         {{post.title}}
+	                        </a>
+	                  </li>  
+	              {% endfor %}          
+	               </ul>
+	            </div>
+
+	     {% endif %}
+	{% endfor %}
+
+</div>
+
+  </div>
+</article>
+</div>
+{% include footer.html %}
+
+  </body>
+</html>
