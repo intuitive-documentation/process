@@ -1,34 +1,142 @@
 <div class="catbloc-collection">
 
-{% for collection in site.collections %}
-
-  {% if collection.label != 'posts' %}
-     <div class="catbloc" id="{{ category | remove:' ' }}">
+     <div class="catbloc" id="">
           
             <ul class="sidebar-post">
-
-            {% assign sortedPosts = collection.docs| sort: 'url' %}
-            {% for post in sortedPosts %}    
-
-            {% assign listclass = 'post' %}
-            {% assign spliturl = post.url | split: '/' %}
-            {% if spliturl.size == 4 %}
-                {% assign listclass = 'subpost' %}
-            {% elsif  spliturl.size == 5 %}
-                {% assign listclass = 'subsubpost' %}
-            {% elsif  spliturl.size == 6 %}
-                {% assign listclass = 'subsubsubpost' %}    
-            {% endif %}   
-                   <li class="{{listclass}} sidebar-subpost">
-                        <a href="{{ post.url | prepend: site.baseurl  }}">
-                         {{post.title}}
+               
+                   <li class="post sidebar-subpost">
+                        <a href="{{ site.contentsref }}Contents">
+                         Contents
                         </a>
                   </li>  
-              {% endfor %}          
+               
+                   <li class="post sidebar-subpost">
+                        <a href="{{ site.contentsref }}Jekyll">
+                         Jekyll
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}Jekyll-subtopics/Example-of-markdown-format">
+                         Exemplar markdown
+                        </a>
+                  </li>  
+                  
+                   <li class="post sidebar-subpost">
+                        <a href="{{ site.contentsref }}ProcessTemplate">
+                         Process Documentation Template
+                        </a>
+                  </li>  
+
+                   <li class="post sidebar-subpost">
+                        <a href="{{ site.contentsref }}QA">
+                         QA
+                        </a>
+                  </li>  
+               
+                   <li class="post sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment">
+                         Software Development
+                        </a>
+                  </li>  
+                                 
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/ApprovalAndSchedule">
+                         Approval and Schedule
+                        </a>
+                  </li>  
+
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/AwaitingResponse">
+                         Awaiting Response
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/Ballparking">
+                         Ballparking
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/CodeReview">
+                         Code Review
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/CustomerTest">
+                         Customer Test
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/Development">
+                         Development
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/ExternalPRIs">
+                         External PRIs
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/InternalPRIs">
+                         Internal PRIs
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/Introduction">
+                         Introduction
+                        </a>
+                  </li>  
+                                 
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/LiveDeploy">
+                         Live Deploy
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/MergeToMaster">
+                         Merge to Master
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/QA">
+                         QA
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/RequirementsGathering">
+                         Requirements Gathering
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/ReviewAndCoaching">
+                         Review and Coaching
+                        </a>
+                  </li>  
+               
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/SpecificationWriting">
+                         Specification Writing
+                        </a>
+                  </li>  
+                  
+                   <li class="subpost sidebar-subpost">
+                        <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/TestDeploy">
+                         Test Deploy
+                        </a>
+                  </li>  
+                        
                </ul>
             </div>
-
-     {% endif %}
-{% endfor %}
 
 </div>
