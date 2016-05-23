@@ -4,38 +4,60 @@ status: TODO
 ---
 
 ## Purpose
-- A series of bullet points outlining the desired outcomes for the process
-- Some more items
+- To verify requirements
+- To establish possible solutions to meet the requirements
+- To provide the pros, cons and estimated effort required for each proposed solution
 
 ## Roles
-- **Role 1**
-	- Brief description of the role
-- **Role 2**
-	- Brief description of the role
+- **Project Manager**
+	- The project manager for the specific client
+- **Technical Lead**
+	- The technical owner of the part of the system which is to be changed (if the development is wide ranging multiple technical leads may be required)
+- **QA Tester**
+	- A member of the QA team (ideally someone who is familiar with the area of the system being changed)
+- **Customer**
+	- The stakeholder at the client's business for the required changes
 
 ## Entry Criteria
-- A list pre requisites that need to be completed before this process that can start
+- A completed requirements document as per the [Requirements Gathering Process][1]
+- **Project Manager** to have clear understanding of requirements and motivations for the proposed development
+
+![Ballparking Process](/DevelopmentTeamProcess/images/Ballparking/BallparkingFlow.png)
 
 ## Flow chart of Process
 
 ## Tasks
-T1. 	Name of Task 1: What the task is and **Role** - Name of task should match the image above
+T1. 	Present: **Project Manager** to present the proposed development
 
-T2.		Name of Task 2: What the task is and **Role**
+T2. 	Verification: As per verification points below
+
+T3.		Solutions: **Technical Lead** to offer solution(s) (as many as they think appropriate) and provide pros and cons for each. They should also highlight which solution is their preferred option.
+
+T4. 	Estimate: **Technical Lead** to provide a rough estimate of effort involved for each proposed solution
+
+T5. 	Approve in Principle: **Project Manager** to present suggested solutions (with an emphasis on the **Technical Lead**'s preferred solution) to the **Customer** who will then pick their preferred option
 
 		
 
 ## Verification
-V1.		Name of Verification Step:  **Role** and what happens for the verification
+V1.		Testability: **QA Tester** to verify that all requirements are testable 
+V2. 	Success Criteria: **Technical Lead** to verify that there are clear success objectives for the development
+V3. 	Viability: **Technical Lead** to verify that all requirements are possible to achieve and don't conflict with the existing system functionality
 
 ## Exit Criteria
-- List of criteria that mean that this process has been completed
+- If verification criteria are **not** met then return to [Requirements Gathering][1]
+- If verification criteria are met then the following must also be met to proceed to [Specification][2]:
+	- **Technical Lead** has fully understood **Customer**'s requirements and motivations
+	- All parties are agreed on the solution which will be used to meet the requirements
+	- **Technical Lead** has provided a rough estimate of development effort for the preferred solution
+	- Any limitations of the soultion have been understood and presented to the customer
 
 ## Deliverables
-- List of physical/tangible oucomes from the tasks or verification steps
+D1: A final solution for the proposed development
+D2: A development effort estimate for the proposed solution
 
 ## Quality Records 
-- Any output from the process that provides the evidence that the appropriate activites took place.
+N/A
 
-|**Required Record**|**Custodian**|**Retention Period**|
-|Quality record name|Role responsible for collecting/maintaing the quality record|Rentention period for the quality record|
+[1]:/DevelopmentTeamProcess/content/SoftwareDevelopment-subtopics/RequirementsGathering
+[2]:/DevelopmentTeamProcess/content/SoftwareDevelopment-subtopics/SpecificationWriting
