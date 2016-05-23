@@ -4,17 +4,18 @@ status: TODO
 ---
 
 ## Purpose
-- A series of bullet points outlining the desired outcomes for the process
-- Some more items
+- To understand the customer's business requirements for system changes
+- To understand why existing functionality doesn't support their business needs
+
 
 ## Roles
-- **Role 1**
-	- Brief description of the role
-- **Role 2**
-	- Brief description of the role
+- **Customer**
+	- The stakeholder at the client's business for the required changes
+- **Project Manager**
+	- The project manager for the specific client
 
 ## Entry Criteria
-- A list pre requisites that need to be completed before this process that can start
+- **Customer** has filled out the [requirements template][https://drive.google.com/a/intuitivesystems.co.uk/previewtemplate?id=1MJO22ievzEOJ0MouIBXfSzLdlXXymWxia2lz3oHVClo&mode=domain] to the best of their ability
 
 ## Flow chart of Process
 
