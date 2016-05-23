@@ -17,6 +17,8 @@ status: TODO
 ## Entry Criteria
 - **Customer** has filled out the [requirements template][1] to the best of their ability
 
+![Requirements Gathering Process](/DevelopmentTeamProcess/images/RequirementsGathering/RequirementsGatheringFlow.png)
+
 ## Tasks
 T1. 	Review: **Customer** and **Project Manager** review the requirements document. **Project Manager** requests clarification on any unclear points or any apparently unnecessary functionality which is being requested.
 
@@ -27,11 +29,11 @@ T3.		Publish: When both parties are happy with the requirements the **Project Ma
 		
 
 ## Verification
-Full verification of requiremets happens at the [ballpark][2] step
+Full verification of requirements happens at the [ballpark][2] step
 
 ## Exit Criteria
 - Requirements document is complete
-- **Project Manager** fully understands the **Customer**'s requirement (to be able to present it to the business)
+- **Project Manager** fully understands the **Customer**'s requirements and motivations (to be able to present it to the business)
 
 ## Deliverables
 D1. 	Completed requirements document
