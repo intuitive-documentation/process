@@ -15,24 +15,21 @@ We have to manually update it. The code looks something like this:
      <div class="catbloc">          
             <ul class="sidebar-post">
 
-                  <!-- This is the first header -->
-                  <p class="icon-clipboard">
-                    Misc
-                  </p>
 
-                  <!-- This is the first list of articles -->
+                  <h4>
+                    <i class="fa fa-cog"></i>
+                    Misc
+                  </h4>
                   <li>
                         <a href="{{ site.contentsref }}Contents">
                          Contents
                         </a>
                   </li> 
 
-                  <!-- This is the second header -->
-                  <p class="icon-graph">
+                  <h4>
+                  <i class="fa fa-folder"></i>
                   Test
-                  </p>   
-
-                  <!-- This is the second list of articles -->                          
+                  </h4>                           
                    <li>
                         <a href="{{ site.contentsref }}SoftwareDevelopment-subtopics/ReviewAndCoaching">
                          Review and Coaching
@@ -51,6 +48,8 @@ We have to manually update it. The code looks something like this:
                         </ul> 
                   </li>
 
+
+
                </ul>
             </div>
 </div>
@@ -68,27 +67,14 @@ We curate the bits inbetween. To start a new section add in:
 
 {% highlight bash %}
 
-<p class="icon-clipboard">
-	Misc
-</p>
+<h4>
+    <i class="fa fa-cog"></i>
+    Misc
+</h4>
 
 {% endhighlight %}
 
-
-Add a class of the form "icon-xyz" to specify the icon appearing on the left of the header. The icons we have available are:
-
-- calender
-- contract
-- document
-- flag
-- flight
-- folder
-- graph
-- hotel
-- info
-- misc
-
-New icons can be added in sidebar.scss in intuitivedocs/DocumentationThemeSite
+We use [font awesome] to add icons next to section headers. At the time of writing they have 600+ icons. Use them!
 
 #### Adding articles
 
@@ -105,3 +91,5 @@ Then add the articles you want. To specify a hierarchy nest the html. They shoul
 {% endhighlight %}
 
 Boom! You should now see your results.
+
+[font awesome]: http://fontawesome.bootstrapcheatsheets.com/
