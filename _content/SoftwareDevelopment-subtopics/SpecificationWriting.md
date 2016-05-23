@@ -4,38 +4,54 @@ status: TODO
 ---
 
 ## Purpose
-- A series of bullet points outlining the desired outcomes for the process
-- Some more items
+- To create a complete specification for the work desired. This should:
+	- Outline the chosen soultion
+	- Define the criteria for success
+	- Define the technical approach for the development
 
 ## Roles
-- **Role 1**
-	- Brief description of the role
-- **Role 2**
-	- Brief description of the role
+- **Project Manager**
+	- The project manager for the specific client
+- **Technical Lead**
+	- The technical owner of the part of the system which is to be changed (if the development is wide ranging multiple technical leads may be required)
+- **QA Tester**
+	- A member of the QA team (ideally someone who is familiar with the area of the system being changed)
+- **Customer**
+	- The stakeholder at the client's business for the required changes
 
 ## Entry Criteria
-- A list pre requisites that need to be completed before this process that can start
+- A completed requirements document as per the [Requirements Gathering Process][1]
+- All parties to have clear understanding of requirements and motivations for the proposed development as per the [Ballparking Process][2]
 
 ## Flow chart of Process
 
 ## Tasks
-T1. 	Name of Task 1: What the task is and **Role** - Name of task should match the image above
+T1a. 	Descriptive Specification: **Project Manager** to provide a descriptive overview of the problem and the agreed solution. This should contain visual aids where possible (eg screenshots/mockups and/or workflow diagrams).
 
-T2.		Name of Task 2: What the task is and **Role**
+T1b. 	Technical Solution: **Technical Lead** to provide a list of technical changes required to complete the development. This should allow any developer to pick up the development with very little outside input. Ideally this should be sufficiently detailed that any developer picking up the ticket could write almost the same code as any other developer, this should therefore contain class diagrams etc where appropriate.
 
+T1c. 	BDD Specification: **QA Tester** to provide a comprehensive list of test cases (success criteria) in BDD format. This should also include a brief dexcription of the method by which the cases will be tested (where appropriate)
+
+T2. 	Group Review: **Project Manager**, **Technical Lead** and **QA Tester** should meet to review the finalised specification. The sections should be collated into a single specification ([see template][3]) and all parties should check that none of the sections are contradictory and all meet the solution discussed.
+
+T3. 	Sign Off: **Customer** reviews the finalised specification to ensure that all requirements are met to their satisfcation and that they understand what will be delivered. **Customer** also verifies that the defined criteria for success match with how they intent to ultimately test the development.
 		
 
 ## Verification
-V1.		Name of Verification Step:  **Role** and what happens for the verification
+N/A
 
 ## Exit Criteria
-- List of criteria that mean that this process has been completed
+- All parties are satisfied that the specification document contains contradictions
+- All parties are satisfied that the specification document contains no ambiguity
+- All parties are satisfied that the specification document is not missing any success criteria
+- **Technical Lead** is happy that any developer could pick up the job based on the information in the specification alone
 
 ## Deliverables
-- List of physical/tangible oucomes from the tasks or verification steps
+D1. A finalised specification document which meets with the provided template
 
 ## Quality Records 
-- Any output from the process that provides the evidence that the appropriate activites took place.
+N/A
 
-|**Required Record**|**Custodian**|**Retention Period**|
-|Quality record name|Role responsible for collecting/maintaing the quality record|Rentention period for the quality record|
+[1]:/DevelopmentTeamProcess/content/SoftwareDevelopment-subtopics/RequirementsGathering
+[2]:/DevelopmentTeamProcess/content/SoftwareDevelopment-subtopics/Ballparking
+[3]:https://drive.google.com/a/intuitivesystems.co.uk/previewtemplate?id=1Lo4hlFOcppqybZnfW6clsMPSR0dirWC9HdPhntb3jKw&mode=domain

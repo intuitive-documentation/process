@@ -40,9 +40,12 @@ T5. 	Approve in Principle: **Project Manager** to present suggested solutions (w
 ## Verification
 V1.		Testability: **QA Tester** to verify that all requirements are testable 
 
-V2. 	Success Criteria: **Technical Lead** to verify that there are clear success objectives for the development
+V2. 	Requirement Definition: **Technical Lead** to verify that the customer has not proposed a solution in the requirements (the requirements only define WHAT not HOW)
 
-V3. 	Viability: **Technical Lead** to verify that all requirements are possible to achieve and don't conflict with the existing system functionality
+V3. 	Success Criteria: **Technical Lead** to verify that there are clear success objectives for the development
+
+V4. 	Viability: **Technical Lead** to verify that all requirements are possible to achieve and don't conflict with the existing system functionality
+
 
 
 ## Exit Criteria

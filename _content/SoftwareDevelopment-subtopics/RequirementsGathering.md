@@ -42,4 +42,4 @@ D1. 	Completed requirements document
 N/A
 
 [1]:https://drive.google.com/a/intuitivesystems.co.uk/previewtemplate?id=1MJO22ievzEOJ0MouIBXfSzLdlXXymWxia2lz3oHVClo&mode=domain
-[2]:http://intuitivedocs.github.io/DevelopmentTeamProcess/content/SoftwareDevelopment-subtopics/Ballparking
+[2]:/DevelopmentTeamProcess/content/SoftwareDevelopment-subtopics/Ballparking
