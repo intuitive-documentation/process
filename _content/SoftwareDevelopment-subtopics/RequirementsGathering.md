@@ -15,7 +15,7 @@ status: TODO
 	- The project manager for the specific client
 
 ## Entry Criteria
-- **Customer** has filled out the [requirements template][https://drive.google.com/a/intuitivesystems.co.uk/previewtemplate?id=1MJO22ievzEOJ0MouIBXfSzLdlXXymWxia2lz3oHVClo&mode=domain] to the best of their ability
+- **Customer** has filled out the [requirements template][1] to the best of their ability
 
 ## Flow chart of Process
 
@@ -40,3 +40,5 @@ V1.		Name of Verification Step:  **Role** and what happens for the verification
 
 |**Required Record**|**Custodian**|**Retention Period**|
 |Quality record name|Role responsible for collecting/maintaing the quality record|Rentention period for the quality record|
+
+[1]:https://drive.google.com/a/intuitivesystems.co.uk/previewtemplate?id=1MJO22ievzEOJ0MouIBXfSzLdlXXymWxia2lz3oHVClo&mode=domain
