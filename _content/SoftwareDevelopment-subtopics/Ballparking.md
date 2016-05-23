@@ -35,6 +35,8 @@ T4. 	Estimate: **Technical Lead** to provide a rough estimate of effort involved
 
 T5. 	Approve in Principle: **Project Manager** to present suggested solutions (with an emphasis on the **Technical Lead**'s preferred solution) to the **Customer** who will then pick their preferred option
 
+T6. 	JIRA Adim: **Project Manager** moves ticket into specification status
+
 		
 
 ## Verification
@@ -55,6 +57,7 @@ V4. 	Viability: **Technical Lead** to verify that all requirements are possible 
 	- All parties are agreed on the solution which will be used to meet the requirements
 	- **Technical Lead** has provided a rough estimate of development effort for the preferred solution
 	- Any limitations of the soultion have been understood and presented to the customer
+	- JIRA status should be *Specification*
 
 ## Deliverables
 D1. A final solution for the proposed development

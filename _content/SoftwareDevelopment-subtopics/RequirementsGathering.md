@@ -34,6 +34,7 @@ Full verification of requirements happens at the [ballpark][2] step
 ## Exit Criteria
 - Requirements document is complete
 - **Project Manager** fully understands the **Customer**'s requirements and motivations (to be able to present it to the business)
+- JIRA ticket status is *Requirements Received*
 
 ## Deliverables
 D1. 	Completed requirements document
