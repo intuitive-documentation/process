@@ -24,8 +24,6 @@ status: TODO
 
 ![Ballparking Process](/DevelopmentTeamProcess/images/Ballparking/BallparkingFlow.png)
 
-## Flow chart of Process
-
 ## Tasks
 T1. 	Present: **Project Manager** to present the proposed development
 
@@ -41,8 +39,11 @@ T5. 	Approve in Principle: **Project Manager** to present suggested solutions (w
 
 ## Verification
 V1.		Testability: **QA Tester** to verify that all requirements are testable 
+
 V2. 	Success Criteria: **Technical Lead** to verify that there are clear success objectives for the development
+
 V3. 	Viability: **Technical Lead** to verify that all requirements are possible to achieve and don't conflict with the existing system functionality
+
 
 ## Exit Criteria
 - If verification criteria are **not** met then return to [Requirements Gathering][1]
@@ -53,8 +54,9 @@ V3. 	Viability: **Technical Lead** to verify that all requirements are possible 
 	- Any limitations of the soultion have been understood and presented to the customer
 
 ## Deliverables
-D1: A final solution for the proposed development
-D2: A development effort estimate for the proposed solution
+D1. A final solution for the proposed development
+
+D2. A development effort estimate for the proposed solution
 
 ## Quality Records 
 N/A
