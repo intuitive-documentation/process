@@ -8,7 +8,7 @@ TBC
 
 ## Web Config Setup
 - Direct the web config to the generic style folder
-	<add key="CustomFolder" value="generic"/>
+	<pre><add key="CustomFolder" value="generic"/></pre>
 - Add the company name to the web config
 	<add key="CompanyName" value="TBC"/>
 - Set CMS URL
