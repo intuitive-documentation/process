@@ -13,7 +13,7 @@ status: TODO
 - Add the company name to the web config
 	<pre>&lt;add key="CompanyName" value="[CustomerName]"/&gt;</pre>
 - Set CMS URL
-	<pre>&lt;add key="CMSBaseURL" value="[iVectorBaseURL]Content/"/&gt;</pre>
+	<pre>&lt;add key="CMSBaseURL" value="[iVectorBaseURL]/Content/"/&gt;</pre>
 - Set Client Templates Folder
 	<pre>&lt;add key="ClientTemplateFolder" value="c:\projectsvault\ivector\clienttemplates\[CustomerName]\"/&gt;</pre>
 
