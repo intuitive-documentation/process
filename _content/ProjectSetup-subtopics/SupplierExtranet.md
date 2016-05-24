@@ -4,7 +4,7 @@ status: TODO
 ---
 
 ## Infrastructure Setup
-TBC
+TODO
 
 ## Web Config Setup
 - Direct the web config to the generic style folder
