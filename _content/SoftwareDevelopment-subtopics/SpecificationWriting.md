@@ -5,7 +5,7 @@ status: TODO
 
 ## Purpose
 - To create a complete specification for the work desired. This should:
-	- Outline the chosen soultion
+	- Detail the chosen solution
 	- Define the criteria for success
 	- Define the technical approach for the development
 	- Assign an effort to the development
@@ -47,7 +47,7 @@ N/A
 - The status of the JIRA ticket is *Quoted*
 
 ## Deliverables
-D1. A finalised specification document which meets with the provided template
+D1. A finalised specification document which meets with the provided [template][3]
 
 ## Quality Records 
 N/A
