@@ -3,8 +3,9 @@ title: "Supplier Extranet"
 status: TODO
 ---
 
-## Infrastructure Setup
-TODO
+## Prerequisites
+- Site infrastructure has been setup [link to infrastructure setup when page exists]
+- Bamboo deployment tot he new site has been created [link to deployment creation when page exists]
 
 ## Web Config Setup
 - Direct the web config to the generic style folder
