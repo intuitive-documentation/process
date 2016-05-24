@@ -14,7 +14,7 @@ status: TODO
 - **Technical Lead**
 	- The technical owner of the part of the system which is to be changed (if the development is wide ranging multiple technical leads may be required)
 - **QA Tester**
-	- A member of the QA team (ideally someone who is familiar with the area of the system being changed)
+	- A member of the QA team (ideally someone who is familiar with the area of the system being changed) NOTE: with minimal QA resource this role may also be filled by the **Technical Lead**
 - **Customer**
 	- The stakeholder at the client's business for the required changes
 
