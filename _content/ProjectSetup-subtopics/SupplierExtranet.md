@@ -3,10 +3,10 @@ title: "Supplier Extranet"
 status: TODO
 ---
 
-##Infrastructure Setup
+## Infrastructure Setup
 TBC
 
-##Web Config Setup
+## Web Config Setup
 - Direct the web config to the generic style folder
 	<add key="CustomFolder" value="generic"/>
 - Add the company name to the web config
@@ -17,7 +17,7 @@ TBC
 	<add key="ClientTemplateFolder" value="c:\projectsvault\ivector\clienttemplates\tcb\"/>
 
 
-##Optional Further Setup
+## Optional Further Setup
 - Set map key in web config
 	<add key="GoogleMapsKeyOverride" value="xxxxxxxxxx"/>
 - Create custom styling folder (Note: there should be a roadmap dev to simplify this in future so that it is possible to override just a fixed amount of styling)
