@@ -17,7 +17,7 @@ status: TODO
 ## Entry Criteria
 - **Customer** has filled out the [requirements template][1] to the best of their ability
 
-![Requirements Gathering Process](/DevelopmentTeamProcess/images/RequirementsGathering/RequirementsGatheringFlow.png)
+![Requirements Gathering Process](RequirementsGatheringFlow.png)
 
 ## Tasks
 T1. 	Review: **Customer** and **Project Manager** review the requirements document. **Project Manager** requests clarification on any unclear points or any apparently unnecessary functionality which is being requested.

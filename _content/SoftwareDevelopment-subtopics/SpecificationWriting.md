@@ -22,7 +22,7 @@ status: TODO
 - A completed requirements document as per the [Requirements Gathering Process][1]
 - All parties to have clear understanding of requirements and motivations for the proposed development as per the [Ballparking Process][2]
 
-![Specification writing Process](/DevelopmentTeamProcess/images/SpecificationWriting/SpecificationWritingFlow.png)
+![Specification writing Process](SpecificationWritingFlow.png)
 
 ## Tasks
 T1a. 	Descriptive Specification: **Project Manager** to provide a descriptive overview of the problem and the agreed solution. This should contain visual aids where possible (eg screenshots/mockups and/or workflow diagrams).

@@ -1,25 +1,36 @@
 ---
-title: "Supplier Extranet"
+title: "New Client - Bamboo Build"
 status: TODO
 ---
 
-## Infrastructure Setup
-TODO
+## Pre-requisites
+- JIRA project for the customer has been set up
 
-## Web Config Setup
-- Direct the web config to the generic style folder
-	<pre>&lt;add key="CustomFolder" value="generic"/&gt;</pre>
-- Add the company name to the web config
-	<pre>&lt;add key="CompanyName" value="TBC"/&gt;</pre>
-- Set CMS URL
-	<pre>&lt;add key="CMSBaseURL" value="http://localhost:4031/Content/"/&gt;</pre>
-- Set Client Templates Folder
-	<pre>&lt;add key="ClientTemplateFolder" value="c:\projectsvault\ivector\clienttemplates\tcb\"/&gt;</pre>
+## 1. Create Branches
+- In Bamboo under the Release Management project run the "Create Release Branch" build.  
+- Overide the variables
+	- jira.key
+		- The JIRA project code
+	- release.number
+		- 1
+	- source.branch
+		- master
+- Wait for this to complete
 
+## 2. Create Linked Repositories
+- In Bamboo click on the cog in the top right and click on linked repositories
+- We will need to add a linked repository for each of the below repositories which point at the newly created branch (the naming convention is {JIRAprojectkey}.{StashProject}.{StashRepository})
+	- Core / CLR Deployment Task
+	- Core / Intuitive
+	- Core / Intuitive.Domain
+	- Database / iVectorDB
+	- Intuitive / Core
+	- Intuitive / DLL Repository
+	- Intuitive / Flight Provider Base
+	- Intuitive / Interfaces
+	- Intuitive / Outer Core
+	- Intuitive / Web
 
-## Optional Further Setup
-- Set map key in web config
-	<pre>&lt;add key="GoogleMapsKeyOverride" value="xxxxxxxxxx"/&gt;</pre>
-- Create custom styling folder (Note: there should be a roadmap dev to simplify this in future so that it is possible to override just a fixed amount of styling)
-	- Copy the generic styling folder to /Custom/[CustomerName]
-	- Change the styling as required to override the base (generally it will only be required to replace the default logo with a customer specific one)
+## 3. Create Shell Project
+- In Bamboo click on "Create" at the top then "Create New Plan"
+- 

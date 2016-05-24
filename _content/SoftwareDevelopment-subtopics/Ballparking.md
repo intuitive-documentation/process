@@ -22,7 +22,7 @@ status: TODO
 - A completed requirements document as per the [Requirements Gathering Process][1]
 - **Project Manager** to have clear understanding of requirements and motivations for the proposed development
 
-![Ballparking Process](/DevelopmentTeamProcess/images/Ballparking/BallparkingFlow.png)
+![Ballparking Process](BallparkingFlow.png)
 
 ## Tasks
 T1. 	Present: **Project Manager** to present the proposed development

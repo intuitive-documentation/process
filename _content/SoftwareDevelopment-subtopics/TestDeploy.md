@@ -21,7 +21,7 @@ status: "Done"
 	- The customer as requested an ad-hoc test update
 	- The overnight deployment deployment has been triggered
 
-![Test Deployment Process](/DevelopmentTeamProcess/images/TestDeployment/TestDeploymentFlow.png)
+![Test Deployment Process](TestDeploymentFlow.png)
 
 ## Tasks
 T1. 	Run Artefact Builds: **Bamboo** To run the artefact builds

@@ -51,7 +51,7 @@ This is not really likely but hey ho.  Worth 2 minutes of our time styling.
 
 #### Adding an image
 You can reference an image within the repository with the below markdown, the first parameter is the alt text
-![This is a plane](/DevelopmentTeamProcess/images/plane.jpg)
+![This is a plane](plane.jpg)
 
 ----
 
