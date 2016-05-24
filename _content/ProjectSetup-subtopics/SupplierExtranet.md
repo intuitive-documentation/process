@@ -22,4 +22,4 @@ TODO
 	<pre>&lt;add key="GoogleMapsKeyOverride" value="xxxxxxxxxx"/&gt;</pre>
 - Create custom styling folder (Note: there should be a roadmap dev to simplify this in future so that it is possible to override just a fixed amount of styling)
 	- Copy the generic styling folder to /Custom/[CustomerName]
-	- Change the styling as required to override the base (generally it will only be required to use a customer specific logo)
+	- Change the styling as required to override the base (generally it will only be required to replace the default logo with a customer specific one)
