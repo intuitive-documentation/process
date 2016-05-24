@@ -11,11 +11,11 @@ status: TODO
 - Direct the web config to the generic style folder
 	<pre>&lt;add key="CustomFolder" value="generic"/&gt;</pre>
 - Add the company name to the web config
-	<pre>&lt;add key="CompanyName" value="TBC"/&gt;</pre>
+	<pre>&lt;add key="CompanyName" value="[CustomerName]"/&gt;</pre>
 - Set CMS URL
-	<pre>&lt;add key="CMSBaseURL" value="http://localhost:4031/Content/"/&gt;</pre>
+	<pre>&lt;add key="CMSBaseURL" value="[iVectorBaseURL]Content/"/&gt;</pre>
 - Set Client Templates Folder
-	<pre>&lt;add key="ClientTemplateFolder" value="c:\projectsvault\ivector\clienttemplates\tcb\"/&gt;</pre>
+	<pre>&lt;add key="ClientTemplateFolder" value="c:\projectsvault\ivector\clienttemplates\[CustomerName]\"/&gt;</pre>
 
 
 ## Optional Further Setup
