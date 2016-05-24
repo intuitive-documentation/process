@@ -8,6 +8,7 @@ status: TODO
 	- Outline the chosen soultion
 	- Define the criteria for success
 	- Define the technical approach for the development
+	- Assign an effort to the development
 
 ## Roles
 - **Project Manager**
@@ -16,8 +17,6 @@ status: TODO
 	- The technical owner of the part of the system which is to be changed (if the development is wide ranging multiple technical leads may be required)
 - **QA Tester**
 	- A member of the QA team (ideally someone who is familiar with the area of the system being changed)
-- **Customer**
-	- The stakeholder at the client's business for the required changes
 
 ## Entry Criteria
 - A completed requirements document as per the [Requirements Gathering Process][1]
@@ -36,8 +35,6 @@ T2. 	Group Review: **Project Manager**, **Technical Lead** and **QA Tester** sho
 
 T3. Quote: **Technical Lead** provides a final development effort for the ticket. **Project Manager** adds development days and billing details to the JIRA ticket, the ticket is then moved into *Quoted* status
 
-T4. 	Sign Off: **Customer** reviews the finalised specification to ensure that all requirements are met to their satisfcation and that they understand what will be delivered. **Customer** also verifies that the defined criteria for success match with how they intent to ultimately test the development. **Customer** confirms they are happy with the quoted price of development. **Customer** moves the ticket into *Development Approved*
-
 ## Verification
 N/A
 
@@ -47,7 +44,7 @@ N/A
 - All parties are satisfied that the specification document is not missing any success criteria
 - **Technical Lead** is happy that any developer could pick up the job based on the information in the specification alone
 - A development effort and billing details have been added to the JIRA ticket
-- The status of the JIRA ticket is *Development Approved*
+- The status of the JIRA ticket is *Quoted*
 
 ## Deliverables
 D1. A finalised specification document which meets with the provided template
