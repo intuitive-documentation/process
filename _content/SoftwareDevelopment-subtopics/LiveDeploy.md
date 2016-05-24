@@ -35,6 +35,21 @@ T4. Software Deployment:  **Dev Resource** deploys the Software
 
 T5. Final Pre-requisites:  **Dev Resource** completes the remaining pre-req that coukd not be dont before deployment
 
-T6. Smoke Test: **Dev Resource** carries out a first pass to make sure the deployment has not caused any catastrophic issues
+T6. Notify Other Parties:  **Dev Resource** notifies the **Project Manager** and **Customer Contact** that the deployment has been completed.
 
-T7. Notify Other Parties:  **Dev Resource** notifies the **Project Manager** and **Customer Contact** that the development has been completed.
+T7. Customer Sign Off:  **Customer Contact** signs off the release 
+
+## Verification
+V1.	Smoke Test: **Dev Resource** carries out a first pass to make sure the deployment has not caused any catastrophic issues
+
+V2.	Customer Testing: **Customer Contact** reports any issues with the system via Zendesk
+
+## Exit Criteria
+- The live environement has been updated
+- The **Customer Contact** has signed off the release
+
+## Deliverables
+- All developments and fixes are devlivered to the live environment.
+
+## Quality Records 
+N/A
