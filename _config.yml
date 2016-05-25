@@ -19,7 +19,7 @@ defaults:
 -
   scope:
     path: ""
-    type: ""
+    type: "content"
   values:
     layout: "post"
 
