@@ -1,14 +1,14 @@
-maintitle: Development Team Process Documentation
-title: Intuitive Systems Development Team Process Documentation
+maintitle: devwiki
+title: Development Team Wiki
 email: support@intuitivesystems.co.uk
 description: 
-baseurl: "/DevelopmentTeamProcess"
-url: "http://intuitivedocs.github.io/DevelopmentTeamProcess/"
+baseurl: "/devwiki"
+url: "http://intuitivedocs.github.io/devwiki/"
 fixedNav: 'false'
 theme: grey
 styleurl: "/DocumentationSiteThemes"
 fullstyleurl: "http://intuitivedocs.github.io/DocumentationSiteThemes"
-contentsref: "/DevelopmentTeamProcess/content/" 
+contentsref: "/devwiki/content/" 
 
 # collections
 collections:
