@@ -40,22 +40,25 @@
 	                {% if post.title == 'Overview' %}
 	                	{% assign bOverview = 'true' %}    
 	            	{% endif %} 
+	            	{% assign newFolder = spliturl[4] %}
 	            {% elsif  spliturl.size == 5 %}
 	                {% assign listclass = 'subsubpost' %}
 	                {% if post.title == 'Overview' %}
 	                	{% assign bOverview = 'true' %}    
 	            	{% endif %}
+	            	{% assign newFolder = spliturl[5] %}
 	            {% elsif  spliturl.size == 6 %}
 	                {% assign listclass = 'subsubsubpost' %}
 	                {% if post.title == 'Overview' %}
 	                	{% assign bOverview = 'true' %}    
 	            	{% endif %}    
+	            	{% assign newFolder = spliturl[6] %}
 	            {% endif %}
 
 	            {% endif %}
 
 	                
-	                   <li class="{{listclass}} {{bOverview}} contents-subpost">
+	                   <li class="{{listclass}} {{newFolder}} {{bOverview}} contents-subpost">
 	                        <a href="{{ post.url | prepend: site.baseurl  }}">
 	                         {{post.title}}
 	                        </a>
