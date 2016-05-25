@@ -27,7 +27,6 @@ defaults:
 layouts_dir: ./Jekyll/_layouts
 includes_dir: ./Jekyll/_includes
 pages_dir: .Jekyll/_pages
-content_dir: ./_content
 
 
 # Build settings
