@@ -24,14 +24,13 @@
 	            {% assign sortedPosts = collection.docs| sort: 'url' %}
 	            {% for post in sortedPosts %}    
 
-	            {% assign listclass = 'post' %}
+
+	            {% assign listclass = 'subpost' %}
+
+
 	            {% assign spliturl = post.url | split: '/' %}
-	            {% if spliturl.size == 4 %}
-	                {% assign listclass = 'subpost' %}
-	            {% elsif  spliturl.size == 5 %}
-	                {% assign listclass = 'subsubpost' %}
-	            {% elsif  spliturl.size == 6 %}
-	                {% assign listclass = 'subsubsubpost' %}    
+	            {% if post.title == 'Overview' %}
+	                {% assign listclass = 'post' %}    
 	            {% endif %}   
 	                   <li class="{{listclass}} contents-subpost">
 	                        <a href="{{ post.url | prepend: site.baseurl  }}">
