@@ -46,7 +46,7 @@
 	                
 	                   <li class="{{listclass}} {{bOverview}} contents-subpost">
 	                        <a href="{{ post.url | prepend: site.baseurl  }}">
-	                         {{post.title}}
+	                         {{post.title}}  {{ post.url }}
 	                        </a>
 	                  </li>  
 	              {% endfor %}          
