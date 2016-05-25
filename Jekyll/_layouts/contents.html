@@ -28,6 +28,8 @@
                     </a>
 	            </li> 
 
+	            {% assign newSubPost = 1 %}
+
 	            {% assign sortedPosts = collection.docs| sort: 'url' %}
 	            {% for post in sortedPosts %}  
 
@@ -41,25 +43,38 @@
 	                {% if post.title == 'Overview' %}
 	                	{% assign bOverview = 'true' %}    
 	            	{% endif %} 
-	            	{% assign newFolder = spliturl[2] %}
+
+	            	{% if SubPost == spliturl[2] %}
+	                	{% assign postPadding = 'SubPostPadding' %}    
+	            	{% endif %} 
+
+	            	{% assign SubPost = spliturl[2] %}
+
+
+
 	            {% elsif  spliturl.size == 5 %}
 	                {% assign listclass = 'subsubpost' %}
 	                {% if post.title == 'Overview' %}
 	                	{% assign bOverview = 'true' %}    
 	            	{% endif %}
-	            	{% assign newFolder = spliturl[3] %}
+	            	{% assign SubSubPost = spliturl[3] %}
+
+
+
 	            {% elsif  spliturl.size == 6 %}
 	                {% assign listclass = 'subsubsubpost' %}
 	                {% if post.title == 'Overview' %}
 	                	{% assign bOverview = 'true' %}    
 	            	{% endif %}    
-	            	{% assign newFolder = spliturl[4] %}
+	            	{% assign SubSubSubPost = spliturl[4] %}
+
+
 	            {% endif %}
 
 	            {% endif %}
 
 	                
-	                   <li class="{{listclass}} {{newFolder}} contents-subpost">
+	                   <li class="{{listclass}} {{postPadding}} {{newFolder}} contents-subpost">
 	                        <a href="{{ post.url | prepend: site.baseurl  }}">
 	                         {{post.title}}
 	                        </a>
