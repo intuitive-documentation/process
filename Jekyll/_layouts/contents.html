@@ -31,7 +31,8 @@
 	            {% assign sortedPosts = collection.docs| sort: 'url' %}
 	            {% for post in sortedPosts %}  
 
-	            {% if post.title != 'Contents' %}  
+	            {% if post.title != 'Contents' %}
+	            {% assign bOverview = 'false' %}  
 
 	            {% assign listclass = 'post' %}
 	            {% assign spliturl = post.url | split: '/' %}
@@ -58,7 +59,7 @@
 	            {% endif %}
 
 	                
-	                   <li class="{{listclass}} {{newFolder}} {{bOverview}} contents-subpost">
+	                   <li class="{{listclass}} {{newFolder}} contents-subpost">
 	                        <a href="{{ post.url | prepend: site.baseurl  }}">
 	                         {{post.title}}
 	                        </a>
