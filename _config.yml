@@ -14,7 +14,7 @@ contentsref: "/devwiki/content/"
 collections:
      content:
         output: true
-        permalink: 
+        permalink:categories 
 
 defaults:
 -
