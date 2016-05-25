@@ -26,17 +26,24 @@
 
 	            {% assign listclass = 'post' %}
 	            {% assign spliturl = post.url | split: '/' %}
-	            {% if spliturl.size == 3 %}
+	            {% if spliturl.size == 4 %}
 	                {% assign listclass = 'subpost' %}
-	            {% elsif  spliturl.size == 4 %}
-	                {% assign listclass = 'subsubpost' %}
+	                {% if post.title == 'Overview' %}
+	                	{% assign bOverview = 'true' %}    
+	            	{% endif %} 
 	            {% elsif  spliturl.size == 5 %}
-	                {% assign listclass = 'subsubsubpost' %}    
+	                {% assign listclass = 'subsubpost' %}
+	                {% if post.title == 'Overview' %}
+	                	{% assign bOverview = 'true' %}    
+	            	{% endif %}
+	            {% elsif  spliturl.size == 6 %}
+	                {% assign listclass = 'subsubsubpost' %}
+	                {% if post.title == 'Overview' %}
+	                	{% assign bOverview = 'true' %}    
+	            	{% endif %}    
 	            {% endif %}
 
-	            {% if post.title == 'Overview' %}
-	                {% assign bOverview = 'post' %}    
-	            {% endif %}     
+	                
 	                   <li class="{{listclass}} {{bOverview}} contents-subpost">
 	                        <a href="{{ post.url | prepend: site.baseurl  }}">
 	                         {{post.title}}
