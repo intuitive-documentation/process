@@ -55,4 +55,4 @@ status: TODO
 
 ## 6. Test Build
 - Build each of the projects to verify that the builds succeed.
-- These to to built in dependency order.
+- These need to be built in dependency order.
