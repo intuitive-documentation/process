@@ -38,4 +38,4 @@ Navigate to the Jira issues board for your team (links at the bottom of the page
 [2]:	http://jira.intuitivesystems.co.uk/secure/RapidBoard.jspa?rapidView=237
 [3]:	http://jira.intuitivesystems.co.uk/secure/RapidBoard.jspa?rapidView=239
 
-[image-1]:	https://drive.google.com/open?id=0B8CyRqdR3USNSTctSmpaSFE2VXc "Workflow"
+[image-1]:	https://drive.google.com/file/d/0B8CyRqdR3USNSTctSmpaSFE2VXc/view?usp=sharing "Workflow"
