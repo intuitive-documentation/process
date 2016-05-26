@@ -24,15 +24,16 @@ You will find the team boards in the following locations
 
 
 ## How do I…
+Navigate to your team board (see links above) and …
 
 ### Check to see if I have Blocker PRIs
-Navigate to the Jira issues board for your team (links at the bottom of the page), there will be a swimlane at the top of this board called "Blocker PRI". If there are tickets that you need to work on then they will be assigned to you.
+You will find a swim-lane at the top of this board called "Blocker PRI". If there are tickets that you need to work on then they will be assigned to you.
 
 ### Check to set if I have non-blocker PRIs
-Navigate to the Jira issues board for your team (links at the bottom of the page), the second swimlane on the board called "Non-blocker PRI" will contain all of your issue. If there are tickets that you need to work on then they will be assigned to you.  
+There is a second swim-lane on the board called "Non-blocker PRI" will contain all of your issues. If there are tickets that you need to work on then they will be assigned to you.  
 
 ### Find the Team Issues board and assign myself the next ticket
-Navigate to the Jira issues board for your team (links at the bottom of the page), the last swimlane on the board called "Everything Else" contain a list of issues prioritised by the Project Management team. Select the issue at the top of this list, assign it to yourself and move it to in progress. 
+There is a swim-lane on the board called "Everything Else" contain a list of issues prioritised by the Project Management team. Select the issue at the top of this list, assign it to yourself and move it to in progress. 
 
 [1]:	http://jira.intuitivesystems.co.uk/secure/RapidBoard.jspa?rapidView=234
 [2]:	http://jira.intuitivesystems.co.uk/secure/RapidBoard.jspa?rapidView=237
