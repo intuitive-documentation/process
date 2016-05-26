@@ -22,7 +22,7 @@ status: InProgress
 - A date and time has been agreed by the **Dev Resource**, **Project Manager** and **Customer Contact**.
 
 
-## Flow chart
+![Live Deployment Process](LiveDeploymentFlow.png)
 
 ## Tasks
 T1. Gather Pre-Requisites: **Dev Resource** collates a list of all release pre requisites.
