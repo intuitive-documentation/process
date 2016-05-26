@@ -1,6 +1,6 @@
 ---
 title: "New Client - Bamboo Build"
-status: TODO
+status: DONE
 ---
 
 ## Pre-requisites
