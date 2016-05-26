@@ -11,5 +11,5 @@ The books below can be found in the following shared drive \\uranus\data\Develop
 ## [Books library]
 The books below can be found in the Intuitive book library located at the last set of developer desks
 
-[eBooks]: http://intuitivedocs.github.io/devwiki/content/Misc/Library/eBooks
+[eBooks]: http://intuitivedocs.github.io/devwiki/content/Misc/Library/EBooks
 [Books library]: http://intuitivedocs.github.io/devwiki/content/Misc/Library/Books
