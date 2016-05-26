@@ -1,9 +1,9 @@
 ---
-title:  "E-Books"
+title:  "eBooks"
 ---
-## E-Books
 The books below can be found in the following shared drive \\uranus\data\Development\Books
 
+- Adaptive Code via C# *[0735683204]*
 - Advanced HTML5 and CSS3 Specialist *[1118008189]*
 - Class design handbook - VB.net *[1590592751]*
 - Code complete *[0735619670]*
@@ -27,7 +27,7 @@ The books below can be found in the following shared drive \\uranus\data\Develop
 - Visual studio 2015 succintly
 - Working Effectively with Legacy Code *[0131177052]*
 
-
+[0735683204]: https://www.amazon.co.uk/Adaptive-Code-via-Interface-Principles/dp/0735683204/ref=sr_1_1?ie=UTF8&qid=1464279150&sr=8-1&keywords=adaptive+code+via+c%23
 [1118008189]: https://www.amazon.co.uk/HTML-CSS-Design-Build-Sites/dp/1118008189/ref=sr_1_fkmr0_1?s=books&ie=UTF8&qid=1464002445&sr=1-1-fkmr0&keywords=Advanced+HTML5+and+CSS3+Specialist
 [1590592751]: https://www.amazon.co.uk/Visual-Basic-Class-Design-Handbook/dp/1590592751/ref=sr_1_fkmr2_2?ie=UTF8&qid=1464003151&sr=8-2-fkmr2&keywords=Class+design+handbook+-+VB.net
 [0735619670]: https://www.amazon.co.uk/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=sr_1_1?ie=UTF8&qid=1464003220&sr=8-1&keywords=Code+complete
