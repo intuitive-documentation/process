@@ -31,8 +31,8 @@ NB - This will only cover Core and SQL deployments.  Web deployments are more cu
 - The only thing to do here is ensure that the artefact being downloaded is IntuitiveSQL.sql.
 
 ## 6. Test the deployment
--- Run the deployments to ensure they work
-	-- NB Test deployment needs to complete first
+- Run the deployments to ensure they work
+	- NB Test deployment needs to complete first
 
 ## 7. Clone an existing CORE deployment project
 - Once created change the build plan to point to the Core artefact build.
