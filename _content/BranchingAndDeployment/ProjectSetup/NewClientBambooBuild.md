@@ -54,10 +54,10 @@ status: DONE
 	- Variables
 
 ## 6. Create a Build Agent.
--- Under the cog in the top right, select *Agents*
--- Click on *Add Local Agent*
--- Give it the same name as the client.
--- On the next screen dedicate the agent to the build project.
+- Under the cog in the top right, select *Agents*
+- Click on *Add Local Agent*
+- Give it the same name as the client.
+- On the next screen dedicate the agent to the build project.
 
 ## 7. Test Build
 - Build each of the projects to verify that the builds succeed.

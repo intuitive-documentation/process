@@ -11,7 +11,7 @@ status: DONE
 - Go through all the settings in both Test and Live that have \*\* in the values.
 
 ## 2. Set up SQL Jobs
--For both Test and Live the following jobs need to be setup
+- For both Test and Live the following jobs need to be setup
 	- MI Build
 	- Hourly
 	- Overnight
