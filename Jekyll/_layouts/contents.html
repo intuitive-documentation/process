@@ -27,54 +27,24 @@
                      Contents
                     </a>
 	            </li> 
+ 				
 
-	            {% assign newSubPost = 1 %}
+ 				{% assign sortedPosts = collection.docs| sort: 'url' %}
+		            {% for post in sortedPosts %}  
+		            {% if post.title != 'Contents' %}
 
-	            {% assign sortedPosts = collection.docs| sort: 'url' %}
-	            {% for post in sortedPosts %}  
-
-	            {% if post.title != 'Contents' %}
-	            {% assign bOverview = 'false' %}  
-
-	            {% assign listclass = 'post' %}
-	            {% assign spliturl = post.url | split: '/' %}
-	            {% if spliturl.size == 4 %}
-	                {% assign listclass = 'subpost' %}
-	                {% if post.title == 'Overview' %}
-	                	{% assign bOverview = 'true' %}    
-	            	{% endif %} 
-
-	            	{% if SubPost == spliturl[2] %}
-	                	{% assign postPadding = 'SubPostPadding' %}    
-	            	{% endif %} 
-
-	            	{% assign SubPost = spliturl[2] %}
-
-
-
-	            {% elsif  spliturl.size == 5 %}
-	                {% assign listclass = 'subsubpost' %}
-	                {% if post.title == 'Overview' %}
-	                	{% assign bOverview = 'true' %}    
-	            	{% endif %}
-	            	{% assign SubSubPost = spliturl[3] %}
-
-
-
-	            {% elsif  spliturl.size == 6 %}
-	                {% assign listclass = 'subsubsubpost' %}
-	                {% if post.title == 'Overview' %}
-	                	{% assign bOverview = 'true' %}    
-	            	{% endif %}    
-	            	{% assign SubSubSubPost = spliturl[4] %}
-
-
-	            {% endif %}
-
-	            {% endif %}
-
+		            {% assign listclass = '1' %}
+		            
+		            {% assign spliturl = post.url | split: '/' %}
+		            {% if spliturl.size == 4 %}
+		                {% assign listclass = '2' %} 
+		            {% elsif spliturl.size == 5 %}
+		            	{% assign listclass = '3' %} 
+		            {% elsif spliturl.size == 6 %}
+		            	{% assign listclass = '4' %}
+		            {% endif %}
 	                
-	                   <li class="{{listclass}} {{postPadding}} {{newFolder}} contents-subpost">
+	                   <li class="post{{listclass}} {{postPadding}} {{newFolder}} contents-subpost">
 	                        <a href="{{ post.url | prepend: site.baseurl  }}">
 	                         {{post.title}}
 	                        </a>
@@ -86,12 +56,39 @@
 	     {% endif %}
 	{% endfor %}
 
-</div>
+	            {% assign newSubPost = 1 %}
 
-  </div>
-</article>
-</div>
-{% include footer.html %}
+	            {% assign SubPost = '1' %}
+	            {% assign sortedPosts = collection.docs| sort: 'url' %}
+	            {% for post in sortedPosts %}  
+	            {% if post.title != 'Contents' %}
 
-  </body>
-</html>
+
+
+	            {% assign listclass = 'post' %}
+	            
+	            {% assign spliturl = post.url | split: '/' %}
+	            {% if spliturl.size == 4 %}
+	                {% assign listclass = 'subpost' %} 
+
+	                {% if SubPost != '1' %}
+		            	{% if SubPost != spliturl[2] %}
+		                	{% assign postPadding = 'SubPostPadding' %}    
+		            	{% endif %} 
+					{% endif %} 
+
+
+	            	{% assign SubPost = spliturl[2] %}
+
+	            {% elsif  spliturl.size == 5 %}
+	                {% assign listclass = 'subsubpost' %}
+	            	{% assign SubSubPost = spliturl[3] %}
+
+	            {% elsif  spliturl.size == 6 %}
+	                {% assign listclass = 'subsubsubpost' %}   
+	            	{% assign SubSubSubPost = spliturl[4] %}
+	            {% endif %}
+	            
+
+	            {% endif %}
+
