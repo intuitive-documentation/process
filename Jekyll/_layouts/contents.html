@@ -56,8 +56,17 @@
 	     {% endif %}
 	{% endfor %}
 
-	            {% assign newSubPost = 1 %}
+</div>
 
+  </div>
+</article>
+</div>
+{% include footer.html %}
+
+  </body>
+</html>
+
+{% comment %}
 	            {% assign SubPost = '1' %}
 	            {% assign sortedPosts = collection.docs| sort: 'url' %}
 	            {% for post in sortedPosts %}  
@@ -92,3 +101,4 @@
 
 	            {% endif %}
 
+{% endcomment %}
