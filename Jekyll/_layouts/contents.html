@@ -46,7 +46,7 @@
 				            {% assign newContextLocation = {{ spliturl.size | minus: 2 }} %}
 				            {% assign newContext = spliturl[newContextLocation] %}
 
-				            {% if oldContext != newContext %}
+
 
 				            {% if spliturl.size == 4 %}
 				                {% assign listclass = '2' %}
@@ -68,11 +68,10 @@
 				                {% assign titleclass= 6 %}
 				            {% endif %}
 
-
-				            <p class="Title post{{titleclass}} contents-subpost">
-		                         {{newContext}}
-	                  		</p>
-
+				            {% if oldContext != newContext %}
+					            <p class="Title post{{titleclass}} contents-subpost">
+			                        {{newContext}}
+		                  		</p>
 				            {% endif %}
 
 
