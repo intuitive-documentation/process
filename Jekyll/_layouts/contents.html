@@ -49,21 +49,27 @@
 				            {% if oldContext != newContext %}
 
 				            {% if spliturl.size == 4 %}
-				                {% assign listclass = '2' %} 
+				                {% assign listclass = '2' %}
+				                {% assign titleclass= 1 %}
 				            {% elsif spliturl.size == 5 %}
 				            	{% assign listclass = '3' %} 
+				                {% assign titleclass= 2 %}
 				            {% elsif spliturl.size == 6 %}
 				            	{% assign listclass = '4' %} 
+				                {% assign titleclass= 3 %}
 				            {% elsif spliturl.size == 7 %}
 				            	{% assign listclass = '5' %} 
+				                {% assign titleclass= 4 %}
 				            {% elsif spliturl.size == 8 %}
 				            	{% assign listclass = '6' %} 
+				                {% assign titleclass= 5 %}
 				            {% elsif spliturl.size == 9 %}
 				            	{% assign listclass = '7' %}
+				                {% assign titleclass= 6 %}
 				            {% endif %}
 
 
-				            <p class="Title post{{listclass}} contents-subpost">
+				            <p class="Title post{{titleclass}} contents-subpost">
 		                         {{newContext}}
 	                  		</p>
 
