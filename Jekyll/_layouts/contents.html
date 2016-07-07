@@ -48,21 +48,27 @@
 
 				            {% if oldContext != newContext %}
 
-				            <li class="Title contents-subpost">
-		                        <a href="{{ post.url | prepend: site.baseurl  }}">
-		                         {{newContext}}
-		                        </a>
-	                  		</li>
-
-				            {% endif %}
-
 				            {% if spliturl.size == 4 %}
 				                {% assign listclass = '2' %} 
 				            {% elsif spliturl.size == 5 %}
 				            	{% assign listclass = '3' %} 
 				            {% elsif spliturl.size == 6 %}
-				            	{% assign listclass = '4' %}
+				            	{% assign listclass = '4' %} 
+				            {% elsif spliturl.size == 7 %}
+				            	{% assign listclass = '5' %} 
+				            {% elsif spliturl.size == 8 %}
+				            	{% assign listclass = '6' %} 
+				            {% elsif spliturl.size == 9 %}
+				            	{% assign listclass = '7' %}
 				            {% endif %}
+
+
+				            <p class="Title post{{listclass}} contents-subpost">
+		                         {{newContext}}
+	                  		</p>
+
+				            {% endif %}
+
 
 				            {% assign oldContext = spliturl[newContextLocation] %}
 	                
