@@ -43,14 +43,14 @@
 				            
 				            {% assign spliturl = post.url | split: '/' %}
 
-				            {% assign newContextLocation = spliturl.size - 2 %}
+				            {% assign newContextLocation = spliturl.size - 3 %}
 				            {% assign newContext = spliturl[newContextLocation] %}
 
 				            {% if oldContext == newContext %}
 
 				            <li class="Title contents-subpost">
 	                        <a href="{{ post.url | prepend: site.baseurl  }}">
-	                         {{newContextLocation}} test
+	                         {{newContextLocation}} t {{newContext}}
 	                        </a>
 	                  		</li>
 
@@ -64,7 +64,7 @@
 				            	{% assign listclass = '4' %}
 				            {% endif %}
 
-				            {% assign oldContext = spliturl[spliturl.size - 2] %}
+				            {% assign oldContext = newContext %}
 	                
 	                   <li class="post{{listclass}} {{postPadding}} {{newFolder}} contents-subpost">
 	                        <a href="{{ post.url | prepend: site.baseurl  }}">
