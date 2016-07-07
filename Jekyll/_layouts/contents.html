@@ -43,7 +43,7 @@
 				            
 				            {% assign spliturl = post.url | split: '/' %}
 
-				            {% assign newContextLocation = spliturl.size - 3 %}
+				            {% assign newContextLocation = {{ spliturl.size | minus: 2 }} %}
 				            {% assign newContext = spliturl[newContextLocation] %}
 
 				            {% if oldContext == newContext %}
