@@ -1,6 +1,0 @@
----
-title: "ZZ Top"
----
-
-## Placeholder
-
