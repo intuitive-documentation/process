@@ -43,13 +43,14 @@
 				            
 				            {% assign spliturl = post.url | split: '/' %}
 
-				            {% assign newContext = spliturl[spliturl.size - 2] %}
+				            {% assign newContextLocation = spliturl.size - 2 %}
+				            {% assign newContext = spliturl[newContextLocation] %}
 
 				            {% if oldContext == newContext %}
 
 				            <li class="Title contents-subpost">
 	                        <a href="{{ post.url | prepend: site.baseurl  }}">
-	                         {{ spliturl[spliturl.size - 2] }}
+	                         test
 	                        </a>
 	                  		</li>
 
